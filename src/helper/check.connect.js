@@ -9,7 +9,7 @@ const _SECOND = 5000;
 // count connect
 const countConnect = () => {
   const numConnection = mongoose.connect.length;
-  console.log(`Number count of connect ${numConnection}`);
+  console.log(`Number count of connect: ${numConnection}`);
   return numConnection;
 };
 
